@@ -101,13 +101,22 @@ code {
   z-index: 0;
 }
 
-/* Column layout */
-.left-column {
-  float: left;
-}
-.right-column {
-  float: right;
-}
+
+/* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
 
 .g1  { width:  5.25%; }
 .g2  { width: 11.50%; }
